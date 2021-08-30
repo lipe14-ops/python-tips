@@ -20,7 +20,7 @@ age = 15 # right
 |functions|snake case   | functions_names|
 |classes  |Camel Case   | ClassNames     |
 |methods  |snake case   | methods_names  |
-|constats |constant case| CONSTANTS_NAMES|
+|constants|constant case| CONSTANTS_NAMES|
 |modules  |snake case   | module_name.py |
 |package  |flat case    | packagename    |
 ## 3. Use lambda functions to small functions:
