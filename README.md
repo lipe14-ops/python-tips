@@ -106,7 +106,7 @@ def sleep_time(start_time: int) -> str:
     else:
         return 'waking up'
 ```
-## 12 Don't forget to use ternary operators.
+## 12. Don't forget to use ternary operators.
 ```py
 import datetime
 
