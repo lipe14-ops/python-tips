@@ -59,7 +59,7 @@ transports = ['bus',
 name='John' # wrong
 name = 'John'# right
 ```
-## 8. Use to use typing annotations in functions methods and classes. 
+## 8. Use to use typing annotations in functions, methods. 
 ```py
 class Person:
     def __init__(self, name: str, age: int) -> None:
