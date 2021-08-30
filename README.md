@@ -54,12 +54,12 @@ transports = ['bus',
               'dinosaur'
             ]
 ```
-## 7. look for spaces indentations.
+## 7. Look for spaces indentations.
 ```py
 name='John' # wrong
 name = 'John'# right
 ```
-## 8. use to use typing annotations in functions methods and classes. 
+## 8. Use to use typing annotations in functions methods and classes. 
 ```py
 class Person:
     def __init__(self, name: str, age: int) -> None:
