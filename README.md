@@ -90,7 +90,7 @@ import datetime
 def sleep_time(start_time: int):
     current_time = datetime.datetime.now()
      
-    if start_time < current_time:
+    if start_time.year() < current_time:
         return 'sleeping'
     else:
         return None
@@ -98,10 +98,10 @@ def sleep_time(start_time: int):
 ##### RIGHT WAY #####
 import datetime
 
-def sleep_time(start_time: int) -> st:
+def sleep_time(start_time: int) -> str:
     current_time = datetime.datetime.now()
      
-    if start_time < current_time:
+    if start_time.year() < current_time:
         return 'sleeping'
     else:
         return 'waking up'
@@ -123,7 +123,7 @@ mary = mary_name | mary_age # output: {'name':'Mary', 'age': 20}
 ```
 ## 14. NEVER use semicolon to break lines.
 ```py
-gender = 'Male';print(gender) # wrong syntax
+gender = 'Male';print(gender) # wrong 
 
 # right way:
 gender = 'Male'
