@@ -23,9 +23,9 @@ age = 15 # right
 |constants|constant case| CONSTANTS_NAMES|
 |modules  |snake case   | module_name.py |
 |package  |flat case    | packagename    |
-## 3. Use lambda functions to small functions:
+## 3. Use lambda functions to annonymous functions:
 ```py
-add = lambda number_1, number_2: number_1 + number_2
+add = lambda y, x: y + x
 ```
 ## 4. NEVER write useless comments:
 ```py
