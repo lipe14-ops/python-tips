@@ -142,7 +142,7 @@ use the keyword `return` instead `global`.
 ## 16. Be organized as possible.
 ```py
 jeny = { 'name':'Jeny','age':17 } # wrong
-jeny = {'name': 'Jeny',' age': 17} # right
+jeny = {'name':'Jeny',' age':17} # right
 ```
 ## 17. Always check if you are in the main file.
 ```py
