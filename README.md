@@ -3,7 +3,7 @@
 
 # 21 python 3.9 quick tips:
 
-## 0. Use lists, tuple, dictionaries, sets comprehensions.
+## 0. Use lists, tuples, dictionaries, sets comprehensions.
 ```py
 name = [letter for letter in 'Amanda']
 print(name) # output: ['A', 'm', 'a', 'n', 'd', 'a']
