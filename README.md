@@ -160,7 +160,7 @@ if __name__ == '__main__':
 
 ## 19. Repeat strings without loops:
 ```py
-print("hello, world! " * 3) # output: hello, world hello, world! hello, world
+print("hello, world " * 3) # output: hello, world hello, world! hello, world
 ```
 
 ## 20. Switching values of variables:
