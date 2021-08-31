@@ -90,7 +90,7 @@ import datetime
 def sleep_time(start_time: int):
     current_time = datetime.datetime.now()
      
-    if start_time.year() < current_time:
+    if start_time.hour() < current_time:
         return 'sleeping'
     
     return None
@@ -101,7 +101,7 @@ import datetime
 def sleep_time(start_time: int) -> str:
     current_time = datetime.datetime.now()
      
-    if start_time.year() < current_time:
+    if start_time.hour() < current_time:
         return 'sleeping'
     
     return 'waking up'
@@ -112,7 +112,7 @@ import datetime
 
 def sleep_time(start_time: int) -> str:
     current_time = datetime.datetime.now()
-    return 'sleeping' if start_time < current_time.year() else 'waking up'
+    return 'sleeping' if start_time < current_time.hour() else 'waking up'
 ```
 ## 13. Merge dictionaries in one line of code.
 ```py
