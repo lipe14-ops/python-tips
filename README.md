@@ -92,8 +92,8 @@ def sleep_time(start_time: int):
      
     if start_time.year() < current_time:
         return 'sleeping'
-    else:
-        return None
+    
+    return None
 
 ##### RIGHT WAY #####
 import datetime
@@ -103,8 +103,8 @@ def sleep_time(start_time: int) -> str:
      
     if start_time.year() < current_time:
         return 'sleeping'
-    else:
-        return 'waking up'
+    
+    return 'waking up'
 ```
 ## 12. Don't forget the ternary operators.
 ```py
